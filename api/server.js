@@ -18,7 +18,7 @@ server.use("/api/jokes", authenticate, jokesRouter);
 //server.use('/api/users', usersRouter)
 
 server.get("/", (req, res) => {
-  res.json({ message: "Welcome HackerNation! 🔥" });
+  res.json({ message: "Welcome HackerNation!" });
 });
 
 module.exports = server;
